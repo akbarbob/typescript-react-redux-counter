@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.counter{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter>div{
+    width: 10%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.counter>div>p{
+    width: 100%;
+    text-align: center;
+}
+
+.counter>div>button{
+    width: 50%;
+}
